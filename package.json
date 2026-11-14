@@ -1,0 +1,12 @@
+{
+  "name": "@oenexa/standards",
+  "version": "1.0.0",
+  "description": "Enterprise API Style Guide and Git Commit Standards for OENEXA",
+  "scripts": {
+    "lint:commit": "commitlint --from=HEAD~1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.0.0",
+    "@commitlint/config-conventional": "^19.0.0"
+  }
+}
